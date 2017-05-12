@@ -2,7 +2,7 @@
 Random collection of basic information useful in nuclear physics
 
 Stuff to add:
-- Summary of http://clasweb.jlab.org/group_meeting_minutes/Physics/talks_2017/mestayer-4-17.pdf , also see https://userweb.jlab.org/~nathanh/UNGG/researchPresentation.pdf
+- Summary of http://clasweb.jlab.org/group_meeting_minutes/Physics/talks_2017/mestayer-4-17.pdf , also see https://userweb.jlab.org/~nathanh/UNGG/researchPresentation.pdf and http://clasweb.jlab.org/group_meeting_minutes/Physics/talks_2017/ctof-5-8.pdf
 - QQ = 4 E E' sin^2(theta/2)
 - QQ = (W^2 - Mp^2)/((1/x)-1)
 - QQ = 2yEMpx

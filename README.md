@@ -14,3 +14,4 @@ Stuff to add:
 ```vim
 :let i=1 | g/foo/s//\=i."morestuff"/ | let i=i+1
 ```
+- svt3D.png is a nice view of how the svt strips cross to allow tracking

@@ -16,3 +16,4 @@ Stuff to add:
 ```
 - svt3D.png is a nice view of how the svt strips cross to allow tracking
 - see https://clasweb.jlab.org/wiki/index.php/CLAS12_KPP/KPPDB for some SQL basics
+- pi0 decay -> 2 photons: IM^2 = E_gamma1*E_gamma2*(1 - cos\theta) (might be a factor of 2 on RHS)

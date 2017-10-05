@@ -1,0 +1,50 @@
+Seems sqlite3 comes pre-installed on most Mac and Linux systems. Below are some of my notes on how to use it.
+
+To create a new empty DB, simply do: 
+
+sqlite3 dbname.db
+
+This will create the DB and also open the sqlite3 CLI.
+To create a new empty table from the CLI, do, e.g.:
+
+create table mytable(myid integer, myname text, mynum real);
+insert into mytable values(1, 'pi', 3.14159);
+insert into mytable values(2, 'exp', 2.71);
+.tables
+.schema mytable
+select * from mytable;
+select mynum from mytable where myname="pi";
+
+(the semi-colon at the end of each line is important!) do .quit to leave the CLI.
+
+###################################
+
+From the tcsh shell, do: 
+
+sqlite3 dbname.db 'select mynum from mytable where myname="pi"'
+
+to quickly extract a given value.
+
+After a DB and table have been made, you can quickly add a bunch of rows by creating a .sql file:
+
+--- insert-data.sql --- 
+insert into mytable values(1, 'pi', 3.14159);
+insert into mytable values(2, 'exp', 2.71);
+insert into mytable values(3, 'tau', 6.28);
+-----------------------
+
+and then do: 
+
+sqlite3 dbname.db < insert-data.sql
+
+###################################
+
+To force one of the columns to all have unique values (e.g. no two values of myid are the same), do: 
+
+create unique index myidx on mytable(myid);
+
+##################################
+
+Some more examples:
+
+setenv torusScale `sqlite3 KPP.db "select torusScale from runinfo where runno=755"`

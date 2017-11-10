@@ -1,0 +1,10 @@
+if ( `echo "$1" | cut -c-1` == "/" ) then
+echo vim "$1" > /Users/harrison/nvim/OpenVim.command
+chmod +x /Users/harrison/nvim/OpenVim.command
+open /Users/harrison/nvim/OpenVim.command
+else
+setenv NateCurrentDir `pwd`
+echo vim "$NateCurrentDir"/"$1" > /Users/harrison/nvim/OpenVim.command
+chmod +x /Users/harrison/nvim/OpenVim.command
+open /Users/harrison/nvim/OpenVim.command
+endif

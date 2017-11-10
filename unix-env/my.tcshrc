@@ -1,0 +1,10 @@
+unset autolist
+alias ll ls -lthr
+alias rl root -l
+alias rlq root -l -q
+alias rlbq root -l -q -b
+alias nvim /home/kjgroup/.nvim
+alias jlogin ssh -Y nathanh@login.jlab.org
+setenv nh nathanh@login.jlab.org
+alias xopen xdg-open
+set prompt = "[%n@%m:%c] "

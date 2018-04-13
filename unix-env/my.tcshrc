@@ -8,3 +8,10 @@ alias jlogin ssh -Y nathanh@login.jlab.org
 setenv nh nathanh@login.jlab.org
 alias xopen xdg-open
 set prompt = "[%n@%m:%c] "
+
+# for SageMath, do:
+# python
+# import numpy
+# numpy.__file__
+# use this output for PYTHONPATH (stop at site-packages dir), e.g.:
+setenv PYTHONPATH /home/naharrison/.local/lib/python2.7/site-packages

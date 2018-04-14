@@ -1,0 +1,16 @@
+sudo yum update
+visudo
+yum install tcsh maven vim util-linux-user openjfx.x86_64 root.x86_64 gnome-tweak-tool.noarch htop
+hostnamectl set-hostname <hostname>
+chsh -s /usr/bin/tcsh
+git config --global user.email "github-email"
+customize terminal preferences
+download/install/customize opera browser
+install adobe flash player
+set up keyboard shortcuts - alt+g,i,t
+customize .tcshrc, .vimrc, nvim (see np-basics)
+customize favorites bar, time/date settings, etc.
+pip install --user numpy
+pip install --user scipy
+download/install sage - update PYTHONPATH (see np-basics)
+download/install eclipse - add custom settings (see np-basics)

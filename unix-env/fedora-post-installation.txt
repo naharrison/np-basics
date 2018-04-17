@@ -14,3 +14,20 @@ pip install --user numpy
 pip install --user scipy
 download/install sage - update PYTHONPATH (see np-basics)
 download/install eclipse - add custom settings (see np-basics)
+
+### to get videos to play in Opera ###
+### (maybe not all necessary) ###
+from bash:
+
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+sudo dnf install gstreamer1-{ffmpeg,libav,plugins-{good,ugly,bad{,-free,-nonfree}}} --setopt=strict=0
+
+sudo dnf install gstreamer1-{plugin-crystalhd,ffmpeg,plugins-{good,ugly,bad{,-free,-nonfree,-freeworld,-extras}{,-extras}}} libmpg123 lame-libs --setopt=strict=0
+
+sudo dnf install --nogpgcheck http://mirror.yandex.ru/fedora/russianfedora/russianfedora/fixes/fedora/russianfedora-fixes-release-stable.noarch.rpm
+
+sudo yum install chromium chromium-libs chromium-libs-media-freeworld
+
+sudo cp /usr/lib64/chromium-browser/libffmpeg.so /usr/lib64/opera/libffmpeg.so
+######

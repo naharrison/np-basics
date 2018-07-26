@@ -16,6 +16,8 @@ pip install --user scipy
 download/install sage - update PYTHONPATH (see np-basics)
 download/install eclipse - add custom settings (see np-basics)
 
+### for docker, see: https://docs.docker.com/install/linux/docker-ce/fedora/#install-docker-ce-1
+
 ### to get videos to play in Opera ###
 ### (maybe not all necessary) ###
 from bash:

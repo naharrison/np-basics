@@ -27,4 +27,5 @@ sudo update-alternatives --config java to switch to java 1.8
 ROOT - see https://root.cern/downloading-root
 Sage - sagemath.org
 Eclipe - eclipse.org
-OpenBoard, iclicker
+OpenBoard - download .deb file -> gdebi file.deb -> probably won't work - have to go through "dependency hell" manually
+iclicker

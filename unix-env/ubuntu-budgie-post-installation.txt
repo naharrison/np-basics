@@ -1,0 +1,30 @@
+sudo apt update
+sudo apt upgrade 
+
+download/install/setup opera from opera.com
+sudo cp /usr/lib/chromium-browser/libffmpeg.so /usr/lib/x86_64-linux-gnu/opera/libffmpeg.so
+go to about:config -> Browser -> Show advanced settings -> System -> un-check "use hardware acceleration"
+(https://askubuntu.com/questions/1032035/ubuntu-18-04-budgie-desktop-video-lag-youtube-twitch-in-chrome)
+
+sudo apt install vim tcsh maven git htop gnome-terminal gcc gfortran texlive python-pip
+sudo apt install make cmake clang libtbb-dev # for root
+chsh -s /usr/bin/tcsh
+set up keyboard shortcuts - alt+g,i,t
+git config --global user.email "github-email"
+customize terminal preferences
+customize .tcshrc, .vimrc, nvim (see np-basics)
+customize "plank" bar, time/date settings, etc.
+pip install --user numpy
+pip install --user scipy
+
+adobe flash:
+From Software app - activate "Canonical Partner" repository
+sudo apt install adobe-flashplugin
+
+sudo apt install openjdk-8-jdk openjfx
+sudo update-alternatives --config java to switch to java 1.8
+
+ROOT - see https://root.cern/downloading-root
+Sage - sagemath.org
+Eclipe - eclipse.org
+OpenBoard, iclicker

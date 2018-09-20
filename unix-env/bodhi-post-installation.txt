@@ -1,0 +1,22 @@
+connect to wifi using Network Manager (nm-applet command)
+setup keyboard shortcuts: Settings -> Input -> Key Bindings
+  terminology, alt+t
+  midori (--private), alt+b
+  close active window, alt+x
+  ...
+
+sudo apt update; sudo apt upgrade
+sudo apt install vim # then create .vimrc
+
+setup tap-to-click:
+  sudo apt install xinput
+  xinput --list # note the "id" number TouchPad
+  xinput --list-props <id number> # note the id number for "libinput Tapping Enabled"
+  xinput --set-prop <touchPad id> <tapping id> 1
+  (add this to .profile file)
+
+sudo apt install tcsh maven git htop gnome-terminal gcc gfortran texlive python-pip zip unzip
+sudo apt install make cmake clang libtbb-dev # for root
+sudo update-alternatives --config java # to switch to java 1.8
+
+see ubuntu-budgie-post-installation.txt for more

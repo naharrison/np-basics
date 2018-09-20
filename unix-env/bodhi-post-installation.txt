@@ -19,4 +19,6 @@ sudo apt install tcsh maven git htop gnome-terminal gcc gfortran texlive python-
 sudo apt install make cmake clang libtbb-dev # for root
 sudo update-alternatives --config java # to switch to java 1.8
 
+install okular for opening pdf files
+
 see ubuntu-budgie-post-installation.txt for more
